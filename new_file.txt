@@ -1,1 +1,3 @@
 Adding this information to show how git track the changes in or repository. 
+
+This is a comment that I did in the new_branch. This is not in the main branch, just here.
