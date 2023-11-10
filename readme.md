@@ -1,4 +1,7 @@
 # Capstone Project: Real Estate Transaction Analysis in Japan
+Author: Aditi Namboodiripad
+Date: 11/10/2023
+Contact: chittooradi@gmail.com
 
 ## Project Overview
 
@@ -43,6 +46,11 @@ The analysis of this real estate dataset can have several potential impacts:
 - **Investment Decisions:** Investors can use the predictive models to estimate future property prices and make data-driven investment decisions.
 - **Regional Comparisons:** Understanding price variations between Tokyo and other prefectures areas can guide property buyers and sellers.
 
+Japan saw its population peak in 2008 and is aging quickly. The old-age dependency ratiov was 47 in 2019. As aggregate housing supply exceeds housing demand, the national vacancy rate reached 13.6% for all housing types and 18.5% for rental housing in 2018. Wealthy individuals motivated by tax advantages supply small apartment units, but do not lower rents to fill vacant units because low-rent tenants will sit in the apartment for an extended period. At the same time, owners try to avoid renting to families because of low turnover.
+
+5% improvement in predicting trade prices can contribute to more affordable housing options for buyers.
+Market efficiency, it might lead to a 10% increase in the overall effectiveness of property transactions.
+
 ### Dataset Description
 The dataset consists of the following fields:
 
@@ -77,7 +85,38 @@ The dataset consists of the following fields:
 - **Renovation:** Renovation status.
 - **Remarks:** Additional notes and remarks.
 
-The dataset will be thoroughly explored and, where necessary, feature-engineered to facilitate the analysis.
+## Flowchart
+1. **Data Collection:**
+   - Retrieve the dataset 
+   
+2. **Data Preprocessing:**
+   - Handle missing values.
+   - Address data quality issues.
+   - Perform feature engineering.
+   
+3. **Exploratory Data Analysis:**
+   - Analyze distributions of variables.
+   - Visualize patterns and correlations.
+   - Formulate initial questions for further investigation.
+4. **Baseline Modeling :**
+   - Linear regression and random forest models.
+   - Evaluation of model performance using RMSE and R-squared.
+   - Interpret model coefficients for insights.
+
+5. **Advanced Modeling (Sprint 3):**
+   - Cross validation
+   - Fine-tune hyperparameters.
+   - Advanced models
+- Ridge and Lasso Regression: Implement Ridge and Lasso regression to handle potential multicollinearity and feature selection.
+- Gradient Boosting Regressor:Try models like Gradient Boosting Regressor, which can capture complex relationships in the data.
+- Support Vector Machines (SVM): Experiment with Support Vector Machines for regression (SVR) to capture non-linear patterns.
+- Neural Networks:Explore neural networks for regression using frameworks like TensorFlow or PyTorch.
+
+6. **Business Implications and Future Work:**
+   - Discuss the practical implications of model performance.
+   - Outline limitations and potential improvements.
+   - Propose next steps for model refinement.
+   - Productizing work
 
 ## Acknowledgements and Source
 **Source:** https://www.kaggle.com/datasets/nishiodens/japan-real-estate-transaction-prices
