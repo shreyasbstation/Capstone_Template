@@ -1,7 +1,10 @@
 # Capstone Project: Real Estate Transaction Analysis in Japan
 Author: Aditi Namboodiripad
+
 Date: 11/10/2023
+
 Contact: chittooradi@gmail.com
+
 
 ## Project Overview
 
